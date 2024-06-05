@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS authors(
+    id SERIAL PRIMARY KEY,
+    age INTEGER,
+    u_name VARCHAR(64) UNIQUE
+);
+
+
